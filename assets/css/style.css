@@ -5,6 +5,7 @@
     --overlay1: #838ba7;
     --lavender:#babbf1;
     --mauve: #ca9ee6;
+    --pink: #f4b8e4;
     --sapphire: #85c1dc;
     --text: #c6d0f5;
     --subtext: #b5bfe2;
@@ -31,7 +32,7 @@ nav {
     z-index: 1000;
     width: 100%;
 }
-nav a:link, a:visited {
+nav a:link, nav a:visited {
     color: var(--text);
     text-decoration: none;
     margin-right: 1rem;
@@ -111,7 +112,7 @@ section {
 }
 
 .experience-item a:link, a:visited {
-    color: var(--sapphire);
+    color: var(--sapphire)
 }
 
 .experience-item {
@@ -123,7 +124,10 @@ section {
 }
 #oss .experience-item {
     border-left: 3px solid;
-    border-image: linear-gradient(to bottom, var(--lavender), var(--mauve) 20%) 1;
+    border-image: linear-gradient(to bottom, var(--lavender), var(--mauve) 20%, var(--pink) 95%) 1;
+}
+#projects .experience-item {
+    border-left: 3px solid var(--pink);
 }
 /* Experience Lists */
 .experience-item h3 {
