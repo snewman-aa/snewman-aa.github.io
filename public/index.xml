@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Iterative Innovator &amp; Machine Learning Engineer on Sam Newman - Machine Learning Engineer</title><link>https://snewman-aa.github.io/</link><description>Recent content in Iterative Innovator &amp; Machine Learning Engineer on Sam Newman - Machine Learning Engineer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://snewman-aa.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Prompt Iteration Tool Demo - Babel Street</title><link>https://snewman-aa.github.io/projects/prompt-iteration-tool/</link><pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate><guid>https://snewman-aa.github.io/projects/prompt-iteration-tool/</guid><description>&lt;h3 id="objective">Objective&lt;/h3>
+&lt;p>Made for an internal dev team to iterate on agent prompts, streamlining the development cycle for AI agents.&lt;/p>
+&lt;h3 id="approach">Approach&lt;/h3>
+&lt;p>Developed rapidly to address an immediate team need for efficient prompt testing and refinement.&lt;/p>
+&lt;h3 id="results--impact">Results &amp;amp; Impact&lt;/h3>
+&lt;ul>
+&lt;li>Developed in 2 days.&lt;/li>
+&lt;li>Enabled team to deliver image enrichment MVP 3X faster than original estimate.&lt;/li>
+&lt;/ul>
+&lt;iframe src="https://drive.google.com/file/d/15sKoiiI8QAtnWQEufcF0z-BevWGGfT-7/preview" width="640" height="480" allow="autoplay">&lt;/iframe></description></item><item><title>LSAT Practice Test Generator - Open Source</title><link>https://snewman-aa.github.io/projects/lsat-practice-test-generator/</link><pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate><guid>https://snewman-aa.github.io/projects/lsat-practice-test-generator/</guid><description>&lt;h3 id="objective">Objective&lt;/h3>
+&lt;p>To generate practice tests with real LSAT questions from old tests using natural language prompts.&lt;/p>
+&lt;h3 id="approach">Approach&lt;/h3>
+&lt;p>Developed a novel algorithm to create hyperdimensional contextual encodings of LSAT questions. This allows for sophisticated understanding and generation of relevant test content.&lt;/p>
+&lt;img src="https://snewman-aa.github.io/images/lsat-screenshot.png" alt="Generated LSAT Practice Test" class="w-full h-auto rounded-lg shadow-lg my-8">
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Python snippet demonstrating the core of the core of the encoder&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># This would typically be part of a larger codebase, but is included here&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># to showcase the technical approach.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">Encoder&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">### --^^-- initialization --^^-- ###&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">generate_orthogonal_roles&lt;/span>(self, num_roles&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">3&lt;/span>):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> random_matrix &lt;span style="color:#f92672">=&lt;/span> np&lt;span style="color:#f92672">.&lt;/span>random&lt;span style="color:#f92672">.&lt;/span>randn(self&lt;span style="color:#f92672">.&lt;/span>output_dim, num_roles)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ortho_matrix &lt;span style="color:#f92672">=&lt;/span> orth(random_matrix)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ortho_matrix &lt;span style="color:#f92672">=&lt;/span> ortho_matrix[:, :num_roles]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> roles &lt;span style="color:#f92672">=&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;stimulus&amp;#34;&lt;/span>: ortho_matrix[:, &lt;span style="color:#ae81ff">0&lt;/span>],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;prompt&amp;#34;&lt;/span>: ortho_matrix[:, &lt;span style="color:#ae81ff">1&lt;/span>],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> num_roles &lt;span style="color:#f92672">&amp;gt;&lt;/span> &lt;span style="color:#ae81ff">2&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> roles[&lt;span style="color:#e6db74">&amp;#34;explanation&amp;#34;&lt;/span>] &lt;span style="color:#f92672">=&lt;/span> ortho_matrix[:, &lt;span style="color:#ae81ff">2&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> roles
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">simhash_projection&lt;/span>(self, embedding: np&lt;span style="color:#f92672">.&lt;/span>ndarray) &lt;span style="color:#f92672">-&amp;gt;&lt;/span> np&lt;span style="color:#f92672">.&lt;/span>ndarray:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> real_hdv &lt;span style="color:#f92672">=&lt;/span> np&lt;span style="color:#f92672">.&lt;/span>zeros(self&lt;span style="color:#f92672">.&lt;/span>output_dim)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> i, value &lt;span style="color:#f92672">in&lt;/span> enumerate(embedding):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> hash_index &lt;span style="color:#f92672">=&lt;/span> murmurhash3_32(i, positive&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#66d9ef">True&lt;/span>) &lt;span style="color:#f92672">%&lt;/span> self&lt;span style="color:#f92672">.&lt;/span>output_dim
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> real_hdv[hash_index] &lt;span style="color:#f92672">+=&lt;/span> value
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> real_hdv
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">project_to_hdvs&lt;/span>(self, embeddings: np&lt;span style="color:#f92672">.&lt;/span>ndarray) &lt;span style="color:#f92672">-&amp;gt;&lt;/span> np&lt;span style="color:#f92672">.&lt;/span>ndarray:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> hdvs &lt;span style="color:#f92672">=&lt;/span> np&lt;span style="color:#f92672">.&lt;/span>array([self&lt;span style="color:#f92672">.&lt;/span>simhash_projection(emb) &lt;span style="color:#66d9ef">for&lt;/span> emb &lt;span style="color:#f92672">in&lt;/span> embeddings])
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> hdvs
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">bind&lt;/span>(self, role_hdv: np&lt;span style="color:#f92672">.&lt;/span>ndarray, value_hdv: np&lt;span style="color:#f92672">.&lt;/span>ndarray) &lt;span style="color:#f92672">-&amp;gt;&lt;/span> np&lt;span style="color:#f92672">.&lt;/span>ndarray:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> self&lt;span style="color:#f92672">.&lt;/span>circular_convolve(role_hdv, value_hdv)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">bundle&lt;/span>(self, bound_hdvs: list) &lt;span style="color:#f92672">-&amp;gt;&lt;/span> np&lt;span style="color:#f92672">.&lt;/span>ndarray:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> bundled_hdv &lt;span style="color:#f92672">=&lt;/span> np&lt;span style="color:#f92672">.&lt;/span>sum(bound_hdvs, axis&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> bundled_hdv
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">generate_question_hdv_from_json&lt;/span>(
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> self,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> json_obj: dict,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> roles: dict,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> weights: dict[str, float] &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">None&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ) &lt;span style="color:#f92672">-&amp;gt;&lt;/span> np&lt;span style="color:#f92672">.&lt;/span>ndarray:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> field_values &lt;span style="color:#f92672">=&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;stimulus&amp;#34;&lt;/span>: json_obj&lt;span style="color:#f92672">.&lt;/span>get(&lt;span style="color:#e6db74">&amp;#34;stimulus&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;&amp;#34;&lt;/span>),
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;prompt&amp;#34;&lt;/span>: json_obj&lt;span style="color:#f92672">.&lt;/span>get(&lt;span style="color:#e6db74">&amp;#34;prompt&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;&amp;#34;&lt;/span>),
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;explanation&amp;#34;&lt;/span>: json_obj&lt;span style="color:#f92672">.&lt;/span>get(&lt;span style="color:#e6db74">&amp;#34;explanation&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;&amp;#34;&lt;/span>),
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> sentences &lt;span style="color:#f92672">=&lt;/span> list(field_values&lt;span style="color:#f92672">.&lt;/span>values())
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> value_embeddings &lt;span style="color:#f92672">=&lt;/span> self&lt;span style="color:#f92672">.&lt;/span>get_sentence_embeddings(sentences)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> value_hdvs &lt;span style="color:#f92672">=&lt;/span> self&lt;span style="color:#f92672">.&lt;/span>project_to_hdvs(value_embeddings)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> bound_hdvs &lt;span style="color:#f92672">=&lt;/span> [self&lt;span style="color:#f92672">.&lt;/span>bind(roles[key], value_hdvs[i]) &lt;span style="color:#66d9ef">for&lt;/span> i, key &lt;span style="color:#f92672">in&lt;/span> enumerate(field_values&lt;span style="color:#f92672">.&lt;/span>keys())]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> question_hdv &lt;span style="color:#f92672">=&lt;/span> self&lt;span style="color:#f92672">.&lt;/span>bundle(bound_hdvs)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> question_hdv
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="results--impact">Results &amp;amp; Impact&lt;/h3>
+&lt;ul>
+&lt;li>Allows for use of natural language prompts to generate practice tests with real LSAT questions from old tests.&lt;/li>
+&lt;li>Open Source project, contributing to the broader ML community.&lt;/li>
+&lt;/ul></description></item></channel></rss>
