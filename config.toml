@@ -1,0 +1,15 @@
+title = "Sam Newman - Machine Learning Engineer"
+baseURL = "https://snewman-aa.github.io/"
+languageCode = "en-us"
+theme = "samnewman-portfolio"
+enableRobotsTXT = true
+canonifyURLs = true
+
+[params]
+  description = "Sam Newman's walking deck for Machine Learning Engineering"
+  author = "Sam Newman"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

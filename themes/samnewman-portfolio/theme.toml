@@ -1,0 +1,12 @@
+name = "Sam Newman Portfolio"
+license = "MIT"
+licenselink = "https://github.com/snewman-aa/snewman-aa.github.io/blob/main/LICENSE"
+description = "A custom Hugo theme for Sam Newman's Machine Learning Engineer portfolio."
+homepage = "https://snewman-aa.github.io/"
+tags = ["portfolio", "ml", "engineer", "personal", "responsive"]
+features = ["responsive", "tailwind"]
+min_version = "0.100.0"
+
+[author]
+  name = "Sam Newman"
+  homepage = "https://snewman-aa.github.io/"

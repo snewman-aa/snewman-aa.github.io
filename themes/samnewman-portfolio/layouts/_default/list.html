@@ -1,0 +1,20 @@
+{{ define "main" }}
+<h1 class="text-7xl font-extrabold text-[var(--ctp-text)] mb-16 text-center">{{ .Title }}</h1>
+<div class="markdown-content mx-auto text-3xl leading-relaxed text-[var(--ctp-text)]">
+    {{ .Content }}
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mt-16">
+    {{ range .Pages.ByWeight }}
+    <div class="bg-[var(--ctp-surface0)] p-12 rounded-3xl shadow-xl hover:shadow-2xl transition duration-300 transform hover:-translate-y-4 flex flex-col border-2 border-[var(--ctp-surface2)]">
+        <h2 class="text-5xl font-bold text-[var(--ctp-pink)] mb-6 leading-snug">
+            <a href="{{ .Permalink }}" class="hover:underline">{{ .Title }}</a>
+        </h2>
+        <div class="text-[var(--ctp-subtext1)] text-xl mb-8">
+            {{ if .Date }}Published: {{ .Date.Format "January 2, 2006" }}{{ end }}
+        </div>
+        <p class="text-[var(--ctp-text)] flex-grow mb-10 text-2xl leading-relaxed">{{ .Summary | plainify | truncate 250 }}</p>
+        <a href="{{ .Permalink }}" class="inline-block bg-[var(--ctp-mauve)] text-[var(--ctp-crust)] px-10 py-5 rounded-xl hover:bg-[var(--ctp-lavender)] transition duration-300 text-center self-start font-semibold shadow-md hover:shadow-lg transform hover:scale-105 text-2xl">Read More <i class="fas fa-arrow-right ml-4"></i></a>
+    </div>
+    {{ end }}
+</div>
+{{ end }}

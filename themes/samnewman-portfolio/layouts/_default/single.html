@@ -1,0 +1,11 @@
+{{ define "main" }}
+<article class="markdown-content mx-auto max-w-none text-[var(--ctp-text)]">
+    <h1 class="text-7xl font-extrabold text-[var(--ctp-pink)] mb-8 leading-tight">{{ .Title }}</h1>
+    <div class="text-[var(--ctp-subtext1)] text-2xl mb-12">
+        Published: {{ .Date.Format "January 2, 2006" }}
+    </div>
+    <div class="text-3xl leading-relaxed">
+        {{ .Content }}
+    </div>
+</article>
+{{ end }}
