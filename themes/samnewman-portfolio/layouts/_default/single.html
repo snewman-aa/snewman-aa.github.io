@@ -1,10 +1,10 @@
 {{ define "main" }}
-<article class="markdown-content mx-auto max-w-none text-[var(--ctp-text)]">
-    <h1 class="text-7xl font-extrabold text-[var(--ctp-pink)] mb-8 leading-tight">{{ .Title }}</h1>
-    <div class="text-[var(--ctp-subtext1)] text-2xl mb-12">
+<article class="markdown-content mx-auto max-w-none text-[var(--ctp-text)] px-4 sm:px-0">
+    <h1 class="text-5xl sm:text-7xl font-extrabold text-[var(--ctp-pink)] mb-6 sm:mb-8 leading-tight">{{ .Title }}</h1>
+    <div class="text-[var(--ctp-subtext1)] text-lg sm:text-2xl mb-8 sm:mb-12">
         Published: {{ .Date.Format "January 2, 2006" }}
     </div>
-    <div class="text-3xl leading-relaxed">
+    <div class="text-xl sm:text-3xl leading-relaxed">
         {{ .Content }}
     </div>
 </article>

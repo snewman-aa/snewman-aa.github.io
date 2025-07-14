@@ -1,5 +1,5 @@
 ---
-title: "Iterative Innovator & Machine Learning Engineer"
+title: "Sam Newman"
 date: 2025-07-11
 draft: false
 weight: 1

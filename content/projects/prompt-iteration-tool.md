@@ -9,7 +9,7 @@ Made for an internal dev team to iterate on agent prompts, streamlining the deve
 
 ### Approach
 Developed rapidly to address an immediate team need for efficient prompt testing and refinement.
-
+<!--more-->
 ### Results & Impact
 * Developed in 2 days.
 * Enabled team to deliver image enrichment MVP 3X faster than original estimate.

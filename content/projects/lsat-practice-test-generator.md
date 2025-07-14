@@ -9,7 +9,7 @@ To generate practice tests with real LSAT questions from old tests using natural
 
 ### Approach
 Developed a novel algorithm to create hyperdimensional contextual encodings of LSAT questions. This allows for sophisticated understanding and generation of relevant test content.
-
+<!--more-->
 <img src="/images/lsat-screenshot.png" alt="Generated LSAT Practice Test" class="w-full h-auto rounded-lg shadow-lg my-8">
 
 ```python
