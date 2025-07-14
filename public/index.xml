@@ -1,7 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sam Newman on Sam Newman - Machine Learning Engineer</title><link>https://snewman-aa.github.io/</link><description>Recent content in Sam Newman on Sam Newman - Machine Learning Engineer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://snewman-aa.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Prompt Iteration Tool Demo - Babel Street</title><link>https://snewman-aa.github.io/projects/prompt-iteration-tool/</link><pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate><guid>https://snewman-aa.github.io/projects/prompt-iteration-tool/</guid><description>&lt;h3 id="objective">Objective&lt;/h3>
-&lt;p>Made for an internal dev team to iterate on agent prompts, streamlining the development cycle for AI agents.&lt;/p>
-&lt;h3 id="approach">Approach&lt;/h3>
-&lt;p>Developed rapidly to address an immediate team need for efficient prompt testing and refinement.&lt;/p></description></item><item><title>LSAT Practice Test Generator - Open Source</title><link>https://snewman-aa.github.io/projects/lsat-practice-test-generator/</link><pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate><guid>https://snewman-aa.github.io/projects/lsat-practice-test-generator/</guid><description>&lt;h3 id="objective">Objective&lt;/h3>
-&lt;p>To generate practice tests with real LSAT questions from old tests using natural language prompts.&lt;/p>
-&lt;h3 id="approach">Approach&lt;/h3>
-&lt;p>Developed a novel algorithm to create hyperdimensional contextual encodings of LSAT questions. This allows for sophisticated understanding and generation of relevant test content.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sam Newman on Sam Newman - Machine Learning Engineer</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Sam Newman on Sam Newman - Machine Learning Engineer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prompt Iteration Tool Demo - Babel Street</title>
+      <link>http://localhost:1313/projects/prompt-iteration-tool/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/prompt-iteration-tool/</guid>
+      <description>&lt;h3 id=&#34;objective&#34;&gt;Objective&lt;/h3&gt;&#xA;&lt;p&gt;Made for an internal dev team to iterate on agent prompts, streamlining the development cycle for AI agents.&lt;/p&gt;&#xA;&lt;h3 id=&#34;approach&#34;&gt;Approach&lt;/h3&gt;&#xA;&lt;p&gt;Developed rapidly to address an immediate team need for efficient prompt testing and refinement.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LSAT Practice Test Generator - Open Source</title>
+      <link>http://localhost:1313/projects/lsat-practice-test-generator/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/lsat-practice-test-generator/</guid>
+      <description>&lt;h3 id=&#34;objective&#34;&gt;Objective&lt;/h3&gt;&#xA;&lt;p&gt;To generate practice tests with real LSAT questions from old tests using natural language prompts.&lt;/p&gt;&#xA;&lt;h3 id=&#34;approach&#34;&gt;Approach&lt;/h3&gt;&#xA;&lt;p&gt;Developed a novel algorithm to create hyperdimensional contextual encodings of LSAT questions. This allows for sophisticated understanding and generation of relevant test content.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
