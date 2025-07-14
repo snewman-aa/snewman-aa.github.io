@@ -34,19 +34,6 @@
     </div>
 </section>
 
-<!-- NEW: Skills Section on Homepage -->
-<section class="mb-16 sm:mb-32 py-16 sm:py-32 px-8 sm:px-16 bg-[var(--ctp-surface0)] rounded-4xl shadow-inner border-4 border-[var(--ctp-surface2)] min-h-[70vh] sm:min-h-[90vh] flex flex-col justify-center">
-    <h2 class="text-4xl sm:text-6xl font-bold text-[var(--ctp-text)] mb-10 sm:mb-16 border-b-4 border-[var(--ctp-teal)] pb-4 sm:pb-8 text-center">My Skills & Tools</h2>
-    <div class="markdown-content mx-auto text-xl sm:text-3xl leading-relaxed text-[var(--ctp-text)]">
-        {{ $skillsPage := .Site.GetPage "section" "skills" }}
-        {{ if $skillsPage }}
-            {{ $skillsPage.Content }}
-        {{ else }}
-            <p class="text-[var(--ctp-subtext0)]">Skills content not found. Please ensure 'content/skills/_index.md' exists.</p>
-        {{ end }}
-    </div>
-</section>
-
 <section class="mb-16 sm:mb-32 py-16 sm:py-32 px-8 sm:px-16 bg-[var(--ctp-mantle)] rounded-4xl shadow-xl border-4 border-[var(--ctp-surface1)] min-h-[70vh] sm:min-h-[90vh] flex flex-col justify-center">
     <h2 class="text-4xl sm:text-6xl font-bold text-[var(--ctp-text)] mb-10 sm:mb-16 border-b-4 border-[var(--ctp-yellow)] pb-4 sm:pb-8 text-center">What People Say</h2>
     <div class="markdown-content mx-auto text-center text-xl sm:text-3xl leading-relaxed">
@@ -67,6 +54,18 @@
             {{ $impactPage.Content }}
         {{ else }}
             <p class="text-[var(--ctp-subtext0)]">No impact details yet. Check back soon!</p>
+        {{ end }}
+    </div>
+</section>
+
+<section class="mb-16 sm:mb-32 py-16 sm:py-32 px-8 sm:px-16 bg-[var(--ctp-surface0)] rounded-4xl shadow-inner border-4 border-[var(--ctp-surface2)] min-h-[70vh] sm:min-h-[90vh] flex flex-col justify-center">
+    <h2 class="text-4xl sm:text-6xl font-bold text-[var(--ctp-text)] mb-10 sm:mb-16 border-b-4 border-[var(--ctp-teal)] pb-4 sm:pb-8 text-center">My Skills & Tools</h2>
+    <div class="markdown-content mx-auto text-xl sm:text-3xl leading-relaxed text-[var(--ctp-text)]">
+        {{ $skillsPage := .Site.GetPage "section" "skills" }}
+        {{ if $skillsPage }}
+            {{ $skillsPage.Content }}
+        {{ else }}
+            <p class="text-[var(--ctp-subtext0)]">Skills content not found. Please ensure 'content/skills/_index.md' exists.</p>
         {{ end }}
     </div>
 </section>
