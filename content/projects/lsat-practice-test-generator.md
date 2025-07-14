@@ -1,6 +1,6 @@
 ---
 title: "LSAT Practice Test Generator - Open Source"
-date: 2024-09-01
+date: 2025-04-15
 draft: false
 weight: 20
 ---

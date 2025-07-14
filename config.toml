@@ -6,7 +6,7 @@ enableRobotsTXT = true
 canonifyURLs = true
 
 [params]
-  description = "Sam Newman's walking deck for Machine Learning Engineering"
+  description = "Sam Newman's walking deck for Machine Learning Engineering and AI Development"
   author = "Sam Newman"
 
 [markup]
