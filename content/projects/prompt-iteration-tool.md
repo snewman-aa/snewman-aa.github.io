@@ -1,5 +1,5 @@
 ---
-title: "Prompt Iteration Tool Demo - Babel Street"
+title: "Prompt Iteration Tool - Babel Street"
 date: 2025-06-25
 draft: false
 weight: 10
@@ -14,4 +14,3 @@ Developed rapidly to address an immediate team need for efficient prompt testing
 * Developed in 2 days.
 * Enabled team to deliver image enrichment MVP 3X faster than original estimate.
 
-<iframe src="https://drive.google.com/file/d/15sKoiiI8QAtnWQEufcF0z-BevWGGfT-7/preview" width="640" height="480" allow="autoplay"></iframe>
